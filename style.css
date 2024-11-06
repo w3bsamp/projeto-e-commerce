@@ -178,3 +178,42 @@ menu{
         }
     }
 }
+
+@media (width < 80rem)
+{
+    :root{
+        --h1: normal 2.375rem var(--font-family);
+        --h2: normal 1.25rem var(--font-family);
+        --h3: normal 0.8rem var(--font-family);
+        --h4: normal 1rem var(--font-family);
+    }
+    menu{
+        display: none;
+    }
+    #principal {
+        flex-direction: column;
+        padding: 20px;
+        img{
+            display: none;
+        }
+    }
+
+    #info .flex{
+        flex-direction: column;
+    }
+
+    #promo .flex{
+        flex-direction: column;
+    }
+    nav .flex{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #produtos{
+        img{
+            width: 200px;
+        }
+    }
+}
