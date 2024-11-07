@@ -27,7 +27,7 @@ body{
 }
 
 .app{
-    margin-inline: 32px;
+    margin-inline: 2rem;
 }
 
 ul li{
@@ -43,8 +43,8 @@ a{
 .btn{
     background-color: var(--brand-color);
     color: var(--brand-color-secondary);
-    padding-inline: 20px;
-    padding-block: 10px;
+    padding-inline: 1.25rem;
+    padding-block: .625rem;
     font-weight: 600;
 }
 
@@ -53,7 +53,7 @@ a{
 }
 
 section{
-    margin-block: 50px;
+    margin-block: 3.125rem;
 }
 
 menu{
@@ -85,11 +85,11 @@ nav.mobile{
     align-items: center;
     justify-content: center;
     background-color: var(--brand-color-primary);
-    gap: 30px;
-    padding: 20px;
+    gap: 2rem;
+    padding: 1.25rem;
     text-align: center;
     & div{
-        max-width: 528px;
+        max-width: 33rem;
     }
     & h1{
         font: var(--h1);
@@ -98,14 +98,14 @@ nav.mobile{
         font: var(--h2);
     }
     & h2, p{
-        margin-block: 20px;
+        margin-block: 1.25rem;
     }
 }
 
 #info .flex{
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 2rem;
 }
 
 #info{
@@ -114,12 +114,12 @@ nav.mobile{
         & h2{
             font: var(--h2);
             font-weight: 600;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
     }
     & .item{
-        max-width: 364px;
-        margin-top: 50px;
+        max-width: 22.75rem;
+        margin-top: 3.125rem;
         text-align: center;
         & h3{
             font: var(--h3);
@@ -130,14 +130,14 @@ nav.mobile{
 
 #promo .flex{
     justify-content: center;
-    gap: 30px;
+    gap: 2rem;
 }
 
 #promo .container{
     align-items: center;
     justify-content: center;
     & div{
-        padding: 20px;
+        padding: 1.25rem;
     }
     & h2{
         font: var(--h2);
@@ -160,7 +160,7 @@ nav.mobile{
     & h2{
         font: var(--h2);
         font-weight: 600;
-        margin-block: 20px;
+        margin-block: 1.25rem;
     }
 }
 
@@ -168,18 +168,18 @@ nav.mobile{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.25rem;
     & div.img{
         text-align: center;
         background-color: #E8E3E3;
-        padding: 10px;
+        padding: .625rem;
     }
     & div.txt{
         display: flex;
         justify-content: space-between;
     }
     & h3, a{
-        margin-block: 10px;
+        margin-block: .625rem;
     }
     h3{
         font: var(--font-normal);
@@ -205,7 +205,7 @@ nav.mobile{
         display: block;
         display: flex;
         align-items: center;
-        padding: 10px;
+        padding: .625rem;
     }
     #principal{
         flex-wrap: wrap;
